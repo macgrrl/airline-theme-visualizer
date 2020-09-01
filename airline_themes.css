@@ -1,0 +1,62 @@
+/* CSS for airline theme text colours */
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.monospace {
+    font-family: Menlo, Consolas, Monaco, Courier;
+    /* font-size: 9pt; */
+}
+
+
+/*
+ Normal & modified styles
+ Modified - insert, replace, visual, inactive
+ 3 sections in status bar, left to right
+ 1 | 2 | 3
+ */
+
+.normal_n1,
+.mod_replace_n1,
+.mod_visual_n1,
+.mod_inactive_n1
+{
+    background-color: #282C34;
+    color: #98C379;
+}
+
+.normal_n2,
+.mod_insert_n2
+.mod_replace_n1
+{
+    background-color: #ABB2BF;
+    color: #3E4452;
+}
+
+.normal_n3 {
+    background-color: #98C379;
+    color: #282C34;
+}
+
+
+/* Modified Insert */
+
+.mod_insert_n1 {
+    background-color: #282C34;
+    color: #61AFEF;
+}
+
+.mod_insert_n3 {
+    background-color: #61AFEF;
+    color: #282C34;
+}
+
+
+/* Modified Replace */
+
+/* Modified Visual */
+
+/* Modified Inactive */
+
